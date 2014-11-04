@@ -11,4 +11,4 @@ sometimes i want to run two commands in parallel, so i want to have a tool like 
 multispawn -e "watchy -w src/client -- npm run build" -e "node-dev server.js"
 ```
 
-and have `multispawn` run both of them in parallel for me
+and have `multispawn` run both of them in parallel for me. it should block while any one of the processes is still running.
